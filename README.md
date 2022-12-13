@@ -100,3 +100,17 @@ Um estudo determinou que seres humanos podem armazenar cerca de 7 itens na memó
 
 Outro motivo, o sinal decai naturalmente com o tempo enquanto o ruído cresce naturalmente como o tempo. Por isso devemos refatorar constantemente para evitar criar uma grande bagunça que precisa ser substituída em vez de mantida.
 
+### DRY Principle: Don't Repeat Yourself
+
+Definido nos livros Pragmatic Programmer e Clean Code. 
+Segue a mesma ideia da normalização de banco de dados: Eles devem estar definidos um só lugar (centralização).
+Copy e paste geralmente é um indicio de problema no design do código pois:
+
+1. Reduz a relação sinal-ruído
+2. Aumenta o número de linhas de código (linhas que lemos, mantemos e debugamos)
+3. Cria um problema na manutenção (alterar em N pontos)
+
+"Medir o proresso da programação por linhas de código é o mesmo que medir o progresso de construção de aeronaves pelo peso" - Bill Gates
+
+Assim como um avião, nosso objetivo é permanecer leve.
+
