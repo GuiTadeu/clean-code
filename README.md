@@ -4,7 +4,7 @@ Repositório criado para estudo dos princípios do Código Limpo com base no cur
 
 ## Agenda
 - [x] Intro
-- [ ] Principles
+- [x] Principles
 - [ ] Naming
 - [ ] Conditionals
 - [ ] Functions
@@ -114,3 +114,29 @@ Copy e paste geralmente é um indicio de problema no design do código pois:
 
 Assim como um avião, nosso objetivo é permanecer leve.
 
+### Auto-documentável
+
+"Entender a intenção do programador original é o problema mais difícil" - Fjelstad & Hamlen (1979)
+
+Um código limpo deve ser auto-documentável, ou seja:
+
+- Ter clara a intenção para que o próximo dev entenda
+- Ter camadas de abstração para facilitar a entrada nos detalhes
+- Ter formatação para facilitar a leitura
+- Favorecer o código sob os comentários para evitar ambiguidades
+
+Um código auto-documentável ajuda a não precisar de documentações secundárias.
+
+## Resumo
+
+### Use a ferramenta certa
+- Procure por fronteiras
+- Permaneça nativo
+- Uma linguagem por arquivo
+
+### Maximize o sinal do ruído
+- TED: Terse (conciso), Expressive & Does One Thing
+- DRY: Don't Repeat Yourself
+- Procure por padrões (repetições)
+
+E sempre que possível, lute para ter um código auto-documentável!
