@@ -5,7 +5,7 @@ Repositório criado para estudo dos princípios do Código Limpo com base no cur
 ## Agenda
 - [x] Intro
 - [x] Principles
-- [ ] Naming
+- [x] Naming
 - [ ] Conditionals
 - [ ] Functions
 - [ ] Classes
